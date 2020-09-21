@@ -2,6 +2,7 @@
 [Link to LeetCode](https://leetcode.com/problems/add-two-numbers)
 
 Given two **sorted arrays** nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays
+![Success](success.png)
 
 Example 1:
 ```
@@ -30,5 +31,3 @@ Example 5:
 Input: nums1 = [2], nums2 = []
 Output: 2.00000
 ```
-![Success](success.png)
-
