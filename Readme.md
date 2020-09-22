@@ -22,7 +22,7 @@ the data.
 * `E` [Merge Two Sorted Lists](./src/merge-two-sorted-lists)
 * `H` [Median of Two Sorted Arrays](./src/median-of-two-sorted-arrays)
 * `H` [Merge K Sorted Lists](./src/merge-k-sorted-lists)
-
+* 'H' [Unique Paths III](./src/unique-paths-III)
 ## How to use this repository
 
 **Install all dependencies**
