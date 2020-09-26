@@ -17,12 +17,14 @@ the data.
 
 ## Solved Problems
 `E` - Easy, `M` - Medium, `H` - Hard
-
 * `E` [Add Two Numbers](./src/add-two-numbers)
 * `E` [Merge Two Sorted Lists](./src/merge-two-sorted-lists)
+* `M` [Largest Number](./src/largest-number)
+* `M` [Teemo Attacking](./src/teemo-attacking)
+* `M` [Majority Element II](./src/majority-element-II)
 * `H` [Median of Two Sorted Arrays](./src/median-of-two-sorted-arrays)
 * `H` [Merge K Sorted Lists](./src/merge-k-sorted-lists)
-* 'H' [Unique Paths III](./src/unique-paths-III)
+* `H` [Unique Paths III](./src/unique-paths-III)
 ## How to use this repository
 
 **Install all dependencies**
