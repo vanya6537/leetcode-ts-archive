@@ -17,14 +17,15 @@ the data.
 
 ## Solved Problems
 `E` - Easy, `M` - Medium, `H` - Hard
-* `E` [Add Two Numbers](./src/add-two-numbers)
-* `E` [Merge Two Sorted Lists](./src/merge-two-sorted-lists)
-* `M` [Largest Number](./src/largest-number)
-* `M` [Teemo Attacking](./src/teemo-attacking)
-* `M` [Majority Element II](./src/majority-element-II)
-* `H` [Median of Two Sorted Arrays](./src/median-of-two-sorted-arrays)
+* `E` [Add Two Numbers](src/others/add-two-numbers)
+* `E` [Merge Two Sorted Lists](src/others/merge-two-sorted-lists)
+* `M` [Largest Number](src/others/largest-number)
+* `M` [Teemo Attacking](src/others/teemo-attacking)
+* `M` [Majority Element II](src/others/majority-element-II)
+* `M` [Minimum Domino Rotations For Equal Row](src/google/minimum-domino-rotations-for-equal-row)
+* `H` [Median of Two Sorted Arrays](src/others/median-of-two-sorted-arrays)
 * `H` [Merge K Sorted Lists](./src/merge-k-sorted-lists)
-* `H` [Unique Paths III](./src/unique-paths-III)
+* `H` [Unique Paths III](src/others/unique-paths-III)
 ## How to use this repository
 
 **Install all dependencies**

@@ -10,7 +10,6 @@
   "repository": {
     "url": "https://github.com/vanya6537/leetcode-ts-archive"
   },
-
   "scripts": {
     "start": "node temp.js",
     "watch": "tsc --watch temp.ts "
