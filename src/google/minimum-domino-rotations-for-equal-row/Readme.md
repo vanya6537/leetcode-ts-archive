@@ -1,44 +1,34 @@
 # `M` Minimum Domino Rotations For Equal Row
 [Link to LeetCode](https://leetcode.com/problems/unique-paths-iii/)
 
-On a 2-dimensional `grid`, there are 4 types of squares:
+In a row of dominoes, `tops[i]` and `bottoms[i]` represent the top and bottom halves of the `ith` domino. (A domino is a tile with two numbers from 1 to 6 - one on each half of the tile.)
 
-- `1` represents the starting square.  There is exactly one starting square.
-- `2` represents the ending square.  There is exactly one ending square.
-- `0` represents empty squares we can walk over.
-- `-1` represents obstacles that we cannot walk over.
+We may rotate the `ith` domino, so that `tops[i]` and `bottoms[i]` swap values.
 
-Return the number of 4-directional walks from the starting square to the ending square, that **walk over every non-obstacle square exactly once**.
+Return the minimum number of rotations so that all the values in tops are the same, or all the values in bottoms are the same.
+
+If it cannot be done, return `-1`.
 ![Success](success.png)
 
 Example 1:
 ```
-Input: [[1,0,0,0],[0,0,0,0],[0,0,2,-1]]
+Input: tops = [2,1,2,4,2,2], bottoms = [5,2,6,2,3,2]
 Output: 2
-Explanation: We have the following two paths: 
-1. (0,0),(0,1),(0,2),(0,3),(1,3),(1,2),(1,1),(1,0),(2,0),(2,1),(2,2)
-2. (0,0),(1,0),(2,0),(2,1),(1,1),(0,1),(0,2),(0,3),(1,3),(1,2),(2,2)
+Explanation: 
+The first figure represents the dominoes as given by tops and bottoms: before we do any rotations.
+If we rotate the second and fourth dominoes, we can make every value in the top row equal to 2, as indicated by the second figure.
 ```
 Example 2:
 ```
-Input: [[1,0,0,0],[0,0,0,0],[0,0,0,2]]
-Output: 4
-Explanation: We have the following four paths: 
-1. (0,0),(0,1),(0,2),(0,3),(1,3),(1,2),(1,1),(1,0),(2,0),(2,1),(2,2),(2,3)
-2. (0,0),(0,1),(1,1),(1,0),(2,0),(2,1),(2,2),(1,2),(0,2),(0,3),(1,3),(2,3)
-3. (0,0),(1,0),(2,0),(2,1),(2,2),(1,2),(1,1),(0,1),(0,2),(0,3),(1,3),(2,3)
-4. (0,0),(1,0),(2,0),(2,1),(1,1),(0,1),(0,2),(0,3),(1,3),(1,2),(2,2),(2,3)
-```
-Example 3:
-```
-Input: [[0,1],[2,0]]
-Output: 0
+Input: tops = [3,5,1,2,3], bottoms = [3,6,3,3,4]
+Output: -1
 Explanation: 
-There is no path that walks over every empty square exactly once.
-Note that the starting and ending square can be anywhere in the grid.
- ```
+In this case, it is not possible to rotate the dominoes to make one row of values equal.
+```
 
 Note:
 ```
-1 <= grid.length * grid[0].length <= 20
+2 <= tops.length <= 2 * 104
+bottoms.length == tops.length
+1 <= tops[i], bottoms[i] <= 6
 ```
